@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@500&family=Open+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.navbar{
+    background: rgb(36, 78, 196);
+    width: 100%;
+    height: 370px;
+}
+.booking{
+    position: absolute;
+    left: 230px;
+    width: 290px;
+}
+.upper-right{
+    float: right;
+    margin-top: 20px;
+    margin-right: 250px;
+}
+.btn1{
+    color: rgb(44, 94, 230);
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 6px;
+}
+.btn1:hover{
+    color: white;
+    background-color: rgb(44, 94, 230);
+    cursor: pointer;
+}
+.btns{
+    position: absolute;
+    top: 90px;
+    left: 230px;
+}
+.btn2{
+    color: white;
+    border: none;
+    border-color: white;
+    background: none;
+    width: 110px;
+    height: 50px;
+    border-radius: 60px;
+    font-weight: 600;
+}
+.btn2:hover{
+    color: white;
+    background-color: rgb(44, 94, 230);;
+}
+.btn2:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.096);
+}
+.btnstays{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.096);
+    border: 2px solid;
+    border-color: white;
+    width: 110px;
+    height: 50px;
+    border-radius: 60px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.stay{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 170px;
+    left: 240px;
+}
+.muchmore{
+    color: white;
+    position: absolute;
+    font-size: 35px;
+    top: 230px;
+    left: 240px;
+}
+.name1{
+    position: absolute;
+    background-color: rgb(231, 197, 46);
+    height: 70px;
+    width: 169.15px;
+    left: 250px;
+    top: 295px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 10px;
+}
+.name2{
+    position: absolute;
+    background-color: rgb(231, 197, 46);
+    height: 70px;
+    width: 169.15px;
+    left: 595px;
+    top: 295px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 10px;
+}
+.name3{
+    position: absolute;
+    background-color: rgb(231, 197, 46);
+    height: 70px;
+    width: 169.15px;
+    left: 935px;
+    top: 295px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 10px;
+}
+.selector{
+    position: absolute;
+    background-color: rgb(231, 197, 46);
+    width: 1100px;
+    height: 80px;
+    left: 250px;
+    top: 325.5px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+}
+.box1{
+    position: absolute;
+    background-color: white;
+    top: 5px;
+    left: 5px;
+    height: 70px;
+    width: 338.3px;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+    padding-left: 10px;
+}
+.box2{
+    position: absolute;
+    background-color: white;
+    top: 5px;
+    left: 346px;
+    height: 70px;
+    width: 338.3px;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+    padding-left: 10px;
+}
+.box3{
+    position: absolute;
+    background-color: white;
+    top: 5px;
+    left: 687px;
+    height: 70px;
+    width: 338.3px;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+    padding-left: 10px;
+}
+.para1{
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+.search{
+    position: absolute;
+    background-color: rgb(44, 94, 230);
+    top: 5px;
+    left: 1030px;
+    width: 65px;
+    height: 70px;
+    border-radius: 10px;
+}
+.search:hover{
+    background-color: rgb(32, 69, 168);
+    cursor: pointer;
+}
+.checkbox{
+    position: absolute;
+    top: 460px;
+    left: 250px;
+}
+.off{
+    position: absolute;
+    top: 520px;
+    left: 250px;
+}
+.promo{
+    position: absolute;
+    top: 555px;
+    left: 250px;
+}
+.col1{
+    position: absolute;
+    background: white;
+    height: 190px;
+    width: 540px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+    top: 590px;
+    left: 250px;
+    overflow: hidden;
+}
+.col2{
+    position: absolute;
+    background: white;
+    height: 190px;
+    width: 540px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+    top: 590px;
+    left: 810px;
+    overflow: hidden;
+}
+.col2nd{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    height: 190px;
+    width: 540px;
+    border-radius: 10px;
+    top: 590px;
+    left: 810px;
+    overflow: hidden;
+}
+.longest{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+.img1{
+    float: right;
+    width: 45%;
+    height: 190px;
+    border-radius: 5px;
+}
+.browse{
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    margin-right: 230px;
+}
+.btn3{
+    position: absolute;
+    color: white;
+    top: 140px;
+    left: 40px;
+    background: rgb(44, 94, 230);
+    border: none;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+}
+.btn3:hover{
+    background-color: rgb(29, 60, 143);
+}
+.img2{
+    width: 100%;
+}
+.save{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.explore{
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    margin-right: 200px;
+}
+.btn4{
+    position: absolute;
+    color: white;
+    top: 140px;
+    left: 40px;
+    background: rgb(44, 94, 230);
+    border: none;
+    height: 35px;
+    width: 170px;
+    border-radius: 10px;
+}
+.btn4:hover{
+    background-color: rgb(29, 60, 143);
+}
+.explore2{
+    position: absolute;
+    top: 870px;
+    left: 250px;
+}
+.para3{
+    margin-top: 9px;
+}
+.pic1{
+    height: 160px;
+    width: 256.25px;
+    background: url(./img/pak1.png);
+    background-size: cover;
+    position: absolute;
+    top: 940px;
+    left: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+}
+.pic2{
+    height: 160px;
+    width: 256.25px;
+    background: url(./img/pak2.png);
+    background-size: cover;
+    position: absolute;
+    top: 940px;
+    left: 525px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+}
+.pic3{
+    height: 160px;
+    width: 256.25px;
+    background: url(./img/pak3.png);
+    background-size: cover;
+    position: absolute;
+    top: 940px;
+    left: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+}
+.pic4{
+    height: 160px;
+    width: 256.25px;
+    background: url(./img/pak4.png);
+    background-size: cover;
+    position: absolute;
+    top: 940px;
+    left: 1075px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+}
+.pic1p{
+    position: absolute;
+    top: 170px;
+    left: 8px;
+}
+.pic2p{
+    position: absolute;
+    top: 170px;
+    left: 8px;
+}
+.pic3p{
+    position: absolute;
+    top: 170px;
+    left: 8px;
+}
+.pic4p{
+    position: absolute;
+    top: 170px;
+    left: 8px;
+}
+.cat{
+    position: absolute;
+    background-color: white;
+    height: 230px;
+    width: 1100px;
+    top: 1200px;
+    left: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+.catimg{
+    margin-right: 90px;
+    float: right;
+    width: 380px;
+}
+.bluecircle{
+    position: absolute;
+    background-color: rgb(44, 131, 230);
+    width: 450px;
+    height: 450px;
+    margin-bottom: 50px;
+    left: 140px;
+    border-radius: 100%;
+}
+.yellcircle{
+    background-color: rgb(224, 187, 22);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    top: 100px;
+}
+.h21{
+    color: white;
+    position: absolute;
+    top: 110px;
+    left: 100px;
+}
+.h22{
+    color: white;
+    position: absolute;
+    top: 140px;
+    left: 100px;
+}
+.discover{
+    color: rgb(31, 104, 189);
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    width: 250px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.inspire{
+    position: absolute;
+    top: 1485px;
+    left: 250px;
+}
+.skii{
+    background: url(./img/skii.png);
+    background-size: cover;
+    position: absolute;
+    top: 1525px;
+    left: 250px;
+    width: 520px;
+    height: 370px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.skii2nd{
+    background-color: rgba(0, 0, 0, 0.258);
+    background-size: cover;
+    position: absolute;
+    top: 1525px;
+    left: 250px;
+    width: 520px;
+    height: 370px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.halloween{
+    background: url(./img/halloween.png);
+    background-size: cover;
+    position: absolute;
+    top: 1525px;
+    left: 800px;
+    width: 260px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.woods{
+    background: url(./img/bonfire.png);
+    background-size: cover;
+    position: absolute;
+    top: 1525px;
+    left: 1090px;
+    width: 260px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.skiitown{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.skiitownP{
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+.ghostly{
+    position: absolute;
+    top: 260px;
+}
+.imagination{
+    position: absolute;
+    top: 305px;
+}
+.trending{
+    position: absolute;
+    top: 1950px;
+    left: 250px;
+}
+.popular{
+    position: absolute;
+    top: 1980px;
+    left: 250px;
+}
+.row11{
+    position: absolute;
+    background: url(./img/islamabad1.png);
+    background-size: cover;
+    height: 250px;
+    width: 535px;
+    top: 2006px;
+    left: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.row12{
+    position: absolute;
+    background: url(./img/dubai.png);
+    background-size: cover;
+    height: 250px;
+    width: 535px;
+    top: 2006px;
+    left: 815px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.row21{
+    background: url(./img/istanbul.png);
+    background-size: cover;
+    position: absolute;
+    height: 250px;
+    width: 346.6px;
+    top: 2276px;
+    left: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.row22{
+    background: url(./img/karachi.png);
+    background-size: cover;
+    position: absolute;
+    height: 250px;
+    width: 346.6px;
+    top: 2276px;
+    left: 626.6px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.row23{
+    background: url(./img/lahore.png);
+    background-size: cover;
+    position: absolute;
+    height: 250px;
+    width: 346.6px;
+    top: 2276px;
+    left: 1003.2px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.rowp{
+    float: right;
+    color: white;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.footer{
+    position: absolute;
+    background-color: rgb(24, 24, 109);
+    height: 200px;
+    width: 100%;
+    top: 2600px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-size: large;
+}
+/* .inputnbutt{
+    margin-top: 20px;
+    width: 460px;
+} */
+.inputnbutt{
+    position: absolute;
+    top: 100px;
+    left: 35%;
+}
+.inputemail{
+    width: 360px;
+    height: 60px;
+    border: none;
+    border-radius: 4px;
+    padding-left: 12px;
+    font-size: 16px;
+}
+.butt1{
+    color: white;
+    background-color: rgb(44, 131, 230);
+    position: absolute;
+    height: 60px;
+    width: 120px;
+    border: none;
+    border-radius: 4px;
+    left: 370px;
+}
+.butt1:hover{
+    background-color: rgb(18, 85, 161);
+    cursor: pointer;
+}
+.footer2{
+    position: absolute;
+    background-color: rgb(6, 74, 151);
+    height: 80px;
+    width: 100%;
+    top: 2800px;
+}
+.footbutt{
+    position: absolute;
+    width: 160px;
+    height: 30px;
+    left: 45.7%;
+    top: 30px;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    background: transparent;
+    border-radius: 3px;
+}
+.footbutt:hover{
+    border-color: rgb(44, 131, 230);
+    background-color: rgb(44, 131, 230);
+    cursor: pointer;
+}
